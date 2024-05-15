@@ -1,0 +1,67 @@
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #161625;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.website-heading {
+  color: #2cc6c6;
+  font-size: 18px;
+}
+
+.main-heading {
+  color: #cbd5e1;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.loader-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.failure-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .failure-image {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .failure-image {
+    width: 80%;
+  }
+}
